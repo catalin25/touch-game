@@ -1,7 +1,7 @@
  var misca = document.getElementById('myP').addEventListener("touchstart", functie);
 
 function functie() {
-    misca.innerHtml = 'HelloWorld';
+    document.getElementById("demo").innerHtml = 'HelloWorld';
 }
 
 var config = {

@@ -1,4 +1,4 @@
- var misca = document.getElementById('myP').addEventListener("touchstart", functie);
+document.getElementById('myP').addEventListener("touchstart", functie);
 
 function functie() {
     document.getElementById("demo").innerHtml = 'HelloWorld';

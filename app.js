@@ -1,9 +1,3 @@
-document.getElementById("myP").addEventListener("touchstart", functie);
-
-function functie() {
-    document.getElementById("demo").innerHtml = 'HelloWorld';
-}
-
 var config = {
     type: Phaser.AUTO,
     width: 800,
